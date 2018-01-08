@@ -1,0 +1,7 @@
+table_add mh_create set_counters 10.0.5.10 10.0.1.10 1234 1234 17 => 0 2 0
+
+table_add mh_delete delete_measure_header 10.0.1.10/32 =>
+
+table_add redirect mirror_data_from_clone 10.0.1.10/32 => 2
+mirroring_add 250 2
+

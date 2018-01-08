@@ -1,0 +1,6 @@
+table_add mh_delete delete_measure_header 10.0.3.10/32 =>
+
+table_add measure_opts_add add_measure_opt 10.0.1.10 10.0.5.10 1234 1234 17 =>
+
+
+

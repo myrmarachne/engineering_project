@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Options
+(option_ID INT AUTO_INCREMENT PRIMARY KEY,
+measurement_ID INT,
+timestamp BIGINT,
+timedelta INT,
+switch_ID INT UNSIGNED,
+UNIQUE KEY pair (measurement_ID, timestamp))
